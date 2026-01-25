@@ -44,6 +44,5 @@ A Piscine é composta por uma série de módulos que evoluem em complexidade, co
     ```bash
     python3 script.py
     ```
-
 ---
 
