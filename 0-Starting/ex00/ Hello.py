@@ -16,7 +16,7 @@ ft_list[1] = "World!"
 ft_tuple = ("Hello", "Brasil!")
 
 # Modificar ft_set
-ft_set.discard("tutu!")     #discard remove o elemento se existir, se não existir não faz nada | remove remove o elemento e gera erro se não existir
+ft_set.discard("tutu!")     #discard remove o elemento se existir, se não existir não faz nada | remove remove o elemento e gera erro se não existir e para a execução
 ft_set.add("Sao Paulo!")
 
 # Modificar ft_dict
