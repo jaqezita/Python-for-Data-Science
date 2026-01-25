@@ -20,8 +20,6 @@ print(
 
 
 
-
-
 # import time
 
 # #Tempo atual em segundos desde a Era Unix
