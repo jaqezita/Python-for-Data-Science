@@ -1,0 +1,60 @@
+############################################################
+# COMPILAÇÃO E CACHE DO PYTHON
+############################################################
+# Arquivos gerados pelo Python para acelerar a execução (bytecode)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensões em C (caso você compile algum módulo)
+*.so
+
+############################################################
+# AMBIENTES VIRTUAIS (VENV / CONDA)
+############################################################
+# Nunca envie a pasta de bibliotecas instaladas para o GitHub.
+# Outras pessoas devem instalá-las via requirements.txt.
+.venv/
+venv/
+ENV/
+env/
+# Configurações do ambiente Conda
+.conda/
+conda-bld/
+
+############################################################
+# CIÊNCIA DE DADOS E JUPYTER NOTEBOOKS
+############################################################
+# Backups automáticos e checkpoints do Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Arquivos de dados pesados (opcional)
+# Descomente as linhas abaixo se quiser ignorar arquivos de dados grandes
+# *.csv
+# *.json
+# *.h5
+
+############################################################
+# TESTES E COBERTURA
+############################################################
+# Relatórios de testes e caches de ferramentas de linting/teste
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+.mypy_cache/
+
+############################################################
+# SISTEMA OPERACIONAL E EDITORES
+############################################################
+# Arquivos inúteis criados pelo Windows ou macOS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Configurações de editores (VS Code / PyCharm)
+.vscode/
+.idea/
