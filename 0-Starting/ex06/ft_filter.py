@@ -1,17 +1,8 @@
 def ft_filter(function, iterable):
-    """
-    Reimplementação da função filter do Python.
+    """filter(function or None, iterable) --> filter object
 
-    Retorna os elementos do iterável para os quais
-    a função retorna True.
-
-    Args:
-        function (callable | None): função de filtro
-        iterable (iterable): sequência de elementos
-
-    Returns:
-        list: elementos filtrados
-    """
+Return an iterator yielding those items of iterable for which function(item)
+is true. If function is None, return the items that are true."""
 
     if function is None:
         return [item for item in iterable if item]

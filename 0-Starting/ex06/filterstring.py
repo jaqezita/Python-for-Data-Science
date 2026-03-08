@@ -4,8 +4,6 @@ from ft_filter import ft_filter
 
 def main():
     """
-    Função principal do programa.
-
     Recebe uma string e um número inteiro via argumentos
     do terminal e retorna as palavras cujo tamanho é
     maior que o número informado.
@@ -28,8 +26,7 @@ def main():
 
         print(resultado)
 
-    except Exception:
-
+    except (AssertionError, ValueError):
         print("AssertionError: the arguments are bad")
 
 
