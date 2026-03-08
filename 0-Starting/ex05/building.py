@@ -33,7 +33,6 @@ import stringcaractereWhat is the text to count
         elif caractere.isspace():
             contagem["espacos"] += 1
 
-
     return contagem
 
 

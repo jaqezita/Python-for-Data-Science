@@ -5,6 +5,6 @@ original = filter.__doc__
 copy = ft_filter.__doc__
 
 
-print(copy) # output: docstring
+print(copy)
 print(original)
-print(original == copy) # output: True
+print(original == copy)
