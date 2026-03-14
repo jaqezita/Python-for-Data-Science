@@ -60,11 +60,11 @@ def validation(argv: str) -> str:
     Valida os argumentos da linha de comando e retorna o texto válido.
 
     Regras:
-    - Deve haver exatamente um argumento do usuário (len(args) == 2).
+    - Deve haver exatamente um argumento do usuário.
     - O argumento deve conter apenas caracteres alfanuméricos ou espaços.
 
     Retorno:
-    - string válida (args[1]) se tudo estiver OK.
+    - string válida se tudo estiver OK.
 
     Exceções:
     - Levanta AssertionError quando a validação falha.
