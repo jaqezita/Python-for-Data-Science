@@ -9,9 +9,13 @@ def contar_caracteres(texto):
     Argv:
         texto (str): texto de entrada
 
-    Returns:
-        dict: quantidade de cada categoria de import sys
-import stringcaractereWhat is the text to count
+     Returns:
+        Dict[str, int]: Dicionário com as contagens das categorias:
+            - 'maiusculas': número de letras maiúsculas (A-Z)
+            - 'minusculas': número de letras minúsculas (a-z)
+            - 'digitos': números (0-9)
+            - 'pontuacao': caracteres de pontuação
+            - 'espacos': espaços em branco
     """
     contagem = {
         "maiusculas": 0,
